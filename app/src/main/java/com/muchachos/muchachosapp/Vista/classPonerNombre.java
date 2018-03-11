@@ -5,4 +5,10 @@ package com.muchachos.muchachosapp.Vista;
  */
 
 public class classPonerNombre {
+    //MUCHACHOS ESTE ES EL FORMATO PARA LOS NOMBRES DE CADA CLASE
+    // EJEMPLO
+    // classUsuario
+    // classConexion
+    // classBaseDatos
+
 }
