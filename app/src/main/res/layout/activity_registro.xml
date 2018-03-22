@@ -28,14 +28,14 @@
                 android:textSize="30sp" />
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/id_imgFoto"
                 android:layout_width="200dp"
                 android:layout_height="200dp"
                 android:layout_gravity="center_vertical|center_horizontal"
                 app:srcCompat="@drawable/usuario" />
 
             <ImageButton
-                android:id="@+id/imageButton"
+                android:id="@+id/id_imgBtonCamara"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
 
@@ -101,7 +101,7 @@
                 tools:layout_editor_absoluteY="434dp">
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/idBotonGuardar"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_vertical|center_horizontal"
@@ -112,7 +112,7 @@
                     android:text="Guardar" />
 
                 <Button
-                    android:id="@+id/button7"
+                    android:id="@+id/idBotonCancelar"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center_vertical|center_horizontal"
