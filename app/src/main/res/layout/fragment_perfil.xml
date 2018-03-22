@@ -2,12 +2,125 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.muchachos.muchachosapp.Vista.PerfilFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="86dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Muchacho/a Registrate!!"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+            <ImageView
+                android:id="@+id/id_imgFoto"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                app:srcCompat="@drawable/usuario" />
+
+            <ImageButton
+                android:id="@+id/id_imgBtonCamara"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+
+                android:layout_marginTop="10dp"
+
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+
+            <EditText
+                android:id="@+id/idEdiTexNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="10dp"
+                android:hint="Nombre de Usuario"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/idEdiTexEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="10dp"
+                android:hint="Email"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/idEdiTextContraseña"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_margin="10dp"
+                android:hint="Contraseña"
+                android:inputType="textPersonName"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteY="434dp">
+
+                <Button
+                    android:id="@+id/idBotonGuardar"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:layout_weight="1"
+                    android:text="Guardar" />
+
+                <Button
+                    android:id="@+id/idBotonCancelar"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Cancelar" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
