@@ -141,7 +141,25 @@ public class MainActivity extends AppCompatActivity {
         public Fragment getItem(int position) {
             // getItem is called to instantiate the fragment for the given page.
             // Return a PlaceholderFragment (defined as a static inner class below).
+
+/* */
+            switch (position){
+                case 0:
+                    PerfilFragment perfilFragment = new PerfilFragment();
+                    return perfilFragment;
+
+                case 1:
+
+                    CercanosItemFragment cercanosFragment = new CercanosItemFragment();
+                    return cercanosFragment;
+                case 2:
+
+                    ChatsItemFragment chatsFragment = new ChatsItemFragment();
+
+                    return chatsFragment;
+            }
             return PlaceholderFragment.newInstance(position + 1);
+            //return null;
         }
 
         @Override
@@ -150,17 +168,19 @@ public class MainActivity extends AppCompatActivity {
             return 3;
         }
 
+        /*
         @Override
         public CharSequence getPageTitle(int position){
             switch (position){
                 case 0:
                     return "CHATS";
                 case 1:
-                    return "USUARIOS";
+                    return "CERCANOS";
                 case 2:
                     return "MI PERFIL";
             }
             return null;
         }
+        */
     }
 }

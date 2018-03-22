@@ -1,4 +1,4 @@
-package com.muchachos.muchachosapp;
+package com.muchachos.muchachosapp.Vista;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -30,7 +30,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.muchachos.muchachosapp.Vista.RegistroActivity;
+import com.muchachos.muchachosapp.R;
 
 import java.util.ArrayList;
 import java.util.List;

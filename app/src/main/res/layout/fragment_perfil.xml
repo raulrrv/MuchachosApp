@@ -2,14 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.muchachos.muchachosapp.ChatsFragment">
+    tools:context="com.muchachos.muchachosapp.Vista.PerfilFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="LISTA DE CHATS"
-        android:gravity="center"
-        android:textSize="40dp"/>
+        android:text="@string/hello_blank_fragment" />
 
 </FrameLayout>
