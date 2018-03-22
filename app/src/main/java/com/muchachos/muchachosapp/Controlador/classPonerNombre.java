@@ -13,10 +13,5 @@ public class classPonerNombre {
     // classUsuario
     // classConexion
     // classBaseDatos
-//holaaaaaaaaaaaaaaa
-
-
-
-
 
 }
