@@ -5,91 +5,81 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.muchachos.muchachosapp.Vista.RegistroActivity"
-    tools:layout_editor_absoluteY="81dp">
+    tools:layout_editor_absoluteY="89dp">
 
 
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="115dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
-        android:text="Nombre"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="0dp">
 
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/textView7"
-        app:layout_constraintStart_toEndOf="@+id/textView7" />
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Muchacho/a Registrate!!"
+            android:textAlignment="center"
+            android:textSize="30sp" />
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="0dp"
-        android:layout_height="34dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:text="Correo"
-        app:layout_constraintEnd_toStartOf="@+id/editText10"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre" />
 
-    <EditText
-        android:id="@+id/editText10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
-        android:layout_marginStart="16dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/textView10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView10" />
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
 
-    <TextView
-        android:id="@+id/textView11"
-        android:layout_width="0dp"
-        android:layout_height="39dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="40dp"
-        android:text="Password"
-        app:layout_constraintEnd_toStartOf="@+id/editText11"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
 
-    <EditText
-        android:id="@+id/editText11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="7dp"
-        android:layout_marginStart="20dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="@+id/textView11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView11" />
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="58dp"
-        android:layout_marginBottom="128dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Aecptar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView11"
-        app:layout_constraintVertical_bias="0.9" />
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contraseña" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Imagen" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elegir Archivo" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guardar" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
