@@ -145,18 +145,16 @@ public class MainActivity extends AppCompatActivity {
 /* */
             switch (position){
                 case 0:
-                    PerfilFragment perfilFragment = new PerfilFragment();
-                    return perfilFragment;
+                    ChatsItemFragment chatsFragment = new ChatsItemFragment();
+                    return chatsFragment;
 
                 case 1:
-
                     CercanosItemFragment cercanosFragment = new CercanosItemFragment();
                     return cercanosFragment;
                 case 2:
 
-                    ChatsItemFragment chatsFragment = new ChatsItemFragment();
-
-                    return chatsFragment;
+                    PerfilFragment perfilFragment = new PerfilFragment();
+                return perfilFragment;
             }
             return PlaceholderFragment.newInstance(position + 1);
             //return null;
